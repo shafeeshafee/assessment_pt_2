@@ -1,0 +1,58 @@
+.cat-data-container {
+	height: 100%;
+}
+
+.cat-data-container .title {
+	color: rgb(221, 100, 19);
+}
+
+.cat-data-container input {
+	padding: 0.5em 2em;
+	font-size: 24px;
+}
+
+.random-cats {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80vh;
+	flex-direction: column;
+}
+
+.cat-btn {
+	margin: 1em;
+	padding: 1em 2em;
+	border: 2px solid rgb(221, 100, 19);
+	background: white;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 1em;
+	transition: 0.2s linear;
+}
+
+.cat-btn:hover {
+	cursor: pointer;
+	background: rgb(221, 100, 19);
+	color: white;
+}
+
+.cat-img {
+	height: 350px;
+	width: 350px;
+	margin: 1.5em 0;
+}
+
+/* breed */
+
+.cat-breed {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cat-breed input {
+	width: 30%;
+	text-align: center;
+}
